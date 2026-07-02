@@ -1,0 +1,125 @@
+/* Break Points */
+
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    .nav .subnav a {
+        padding: 5px 12px;
+    }
+    .project-discovery-btn {
+        padding: 15px 16px;
+    }
+    .footer .copyright a {
+        padding: 6px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */ 
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-half-width{
+        width: 50% !important;
+    }
+    .s-col-full {
+        width: 100% !important;
+    }
+    .header {
+        overflow: hidden;
+    }
+    .header .mobile-menu-btn {
+        display: block;
+    }
+    .header .search-btn {
+        display: none;
+    }
+    .nav {
+        display: block;
+    }
+    .nav li a {
+        padding: 1px 24px;
+    }
+    .nav > li {
+        display: block;
+    }
+    .nav > li:first-child {
+        display: inline-block;
+    }
+    .nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    .nav .subnav a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+    .content .project-list {
+        flex-direction: column;
+    }
+    .content .project-body {
+        max-height: unset;
+    }
+    .content .project-desc {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .content .project-discovery-btn {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .content .project-item {
+        margin-top: 48px;
+        margin-bottom: 30px;
+    }
+    .content .project-item:first-child {
+        margin-top: 30px;
+    }
+    .content .project-item:last-child {
+        margin-bottom: 0;
+    }
+    .content .project-img {
+        top: 55%;
+        opacity: unset;
+        color: unset;
+    }
+    .content .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .skill-short {
+        height: unset;
+    }
+    .content .skill-text {
+        margin: 15px 0 15px 35%;
+    }
+    .content .skill-body {
+        margin-top: 30px;
+    }
+    .content .exp-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .exp-img {
+        border-bottom: 1px solid #E1E1E1;
+    }
+    .content .info-img {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content .exp-img,
+    .content .info-img {
+        position: unset;
+        
+    }
+}
